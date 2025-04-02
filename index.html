@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./src/output.css">
 </head>
 <body class="grid grid-cols-1 lg:grid-cols-3">
-    <nav class="p-5 shadow">
+    <nav class="grid grid-cols-1 p-5 shadow lg:sticky lg:top-0 lg:h-dvh lg:items-start lg:mt-8">
         <div class="flex flex-row items-center justify-start">
             <div id="menuBtn" class="flex flex-col gap-3 lg:hidden">
                 <div class="w-12 h-1.5 bg-black"></div>
@@ -16,13 +16,51 @@
             </div>
     
             <div class="flex w-full justify-center">
-                <h1 class="text-3xl font-bold md:text-4xl lg:text-5xl">Where To Eat</h1>
+                <h1 class="text-3xl font-extrabold md:text-4xl 2xl:text-5xl">Where To Hangout</h1>
+            </div>
+
+            <div></div>
+        </div>
+
+        <div class="grid grid-cols-1">
+            <div class="hidden flex-col gap-5 tracking-widest self-center lg:flex 2xl:items-center">
+                <a href="" class="text-4xl font-extrabold">Profile</a>
+                <a href="" class="text-4xl font-extrabold">Support</a>
+                <a href="" class="text-4xl font-extrabold">Settings</a>
+                <a href="" class="text-4xl font-extrabold">About Us</a>
+    
+                <div class="flex flex-row gap-4 pl-1">
+                    <a href="">
+                        <img src="./images/facebookIcon.png" alt="" class="h[35px] w-[35px]">
+                    </a>
+                    <a href="">
+                        <img src="./images/instagramIcon.png" alt="" class="h[35px] w-[35px]">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1">
+            <div id="menu" class="hidden flex-col gap-5 tracking-widest self-center mt-10 mb-3 2xl:items-center lg:hidden">
+                <a href="" class="text-4xl font-extrabold">Profile</a>
+                <a href="" class="text-4xl font-extrabold">Support</a>
+                <a href="" class="text-4xl font-extrabold">Settings</a>
+                <a href="" class="text-4xl font-extrabold">About Us</a>
+    
+                <div class="flex flex-row gap-4 pl-1">
+                    <a href="">
+                        <img src="./images/facebookIcon.png" alt="" class="h[35px] w-[35px]">
+                    </a>
+                    <a href="">
+                        <img src="./images/instagramIcon.png" alt="" class="h[35px] w-[35px]">
+                    </a>
+                </div>
             </div>
         </div>
     </nav>
 
     <section id="hero" class="grid grid-cols-1 lg:col-span-2">
-        <section id="pillSelection" class="p-5">
+        <section id="pillSelection" class="p-5 lg:mt-8">
             <div class="flex flex-row gap-4 items-center justify-start md:justify-center">
                 <button class="flex flex-row min-w-[120px] h-[50px] bg-gray-300 
                 rounded-2xl items-center justify-center hover:bg-gray-200">
@@ -46,7 +84,85 @@
             </div>
         </section>
     
-        <section id="cards" class="grid grid-cols-1 m-8 gap-10 md:grid-cols-2">
+        <section id="cards" class="grid grid-cols-1 m-8 mt-6 gap-10 md:grid-cols-2 2xl:grid-cols-3 2xl:gap-16 2xl:m-14">
+            <a href="" class="bg-gray-300 flex flex-col pb-4 rounded-2xl">
+                <img src="./images/crimsoncup.png" alt="" class="rounded-t-2xl">
+
+                <div class="flex flex-col p-6 pb-3 gap-2">
+                    <h1 class="text-2xl font-medium">
+                        Crimson Cup
+                    </h1>
+
+                    <p class="">
+                        Founded in 1991, Crimson Cup is at the forefront 
+                        of the coffee industry. Our attentive roasting, 
+                        startup support, and global partnerships are 
+                        consciously designed for the greater good of 
+                        communities around the world.
+                    </p>
+                </div>
+
+                <div class="flex flex-row gap-1 pl-6">
+                    <img src="./images/starIcon.png" alt="" class="h-[20px] w-[20px]">
+                    <img src="./images/starIcon.png" alt="" class="h-[20px] w-[20px]">
+                    <img src="./images/starIcon.png" alt="" class="h-[20px] w-[20px]">
+                    <img src="./images/starIcon.png" alt="" class="h-[20px] w-[20px]">
+                    <img src="./images/starIcon.png" alt="" class="h-[20px] w-[20px]">
+                </div>
+            </a>
+
+            <a href="" class="bg-gray-300 flex flex-col pb-4 rounded-2xl">
+                <img src="./images/crimsoncup.png" alt="" class="rounded-t-2xl">
+
+                <div class="flex flex-col p-6 pb-3 gap-2">
+                    <h1 class="text-2xl font-medium">
+                        Crimson Cup
+                    </h1>
+
+                    <p class="">
+                        Founded in 1991, Crimson Cup is at the forefront 
+                        of the coffee industry. Our attentive roasting, 
+                        startup support, and global partnerships are 
+                        consciously designed for the greater good of 
+                        communities around the world.
+                    </p>
+                </div>
+
+                <div class="flex flex-row gap-1 pl-6">
+                    <img src="./images/starIcon.png" alt="" class="h-[20px] w-[20px]">
+                    <img src="./images/starIcon.png" alt="" class="h-[20px] w-[20px]">
+                    <img src="./images/starIcon.png" alt="" class="h-[20px] w-[20px]">
+                    <img src="./images/starIcon.png" alt="" class="h-[20px] w-[20px]">
+                    <img src="./images/starIcon.png" alt="" class="h-[20px] w-[20px]">
+                </div>
+            </a>
+
+            <a href="" class="bg-gray-300 flex flex-col pb-4 rounded-2xl">
+                <img src="./images/crimsoncup.png" alt="" class="rounded-t-2xl">
+
+                <div class="flex flex-col p-6 pb-3 gap-2">
+                    <h1 class="text-2xl font-medium">
+                        Crimson Cup
+                    </h1>
+
+                    <p class="">
+                        Founded in 1991, Crimson Cup is at the forefront 
+                        of the coffee industry. Our attentive roasting, 
+                        startup support, and global partnerships are 
+                        consciously designed for the greater good of 
+                        communities around the world.
+                    </p>
+                </div>
+
+                <div class="flex flex-row gap-1 pl-6">
+                    <img src="./images/starIcon.png" alt="" class="h-[20px] w-[20px]">
+                    <img src="./images/starIcon.png" alt="" class="h-[20px] w-[20px]">
+                    <img src="./images/starIcon.png" alt="" class="h-[20px] w-[20px]">
+                    <img src="./images/starIcon.png" alt="" class="h-[20px] w-[20px]">
+                    <img src="./images/starIcon.png" alt="" class="h-[20px] w-[20px]">
+                </div>
+            </a>
+
             <a href="" class="bg-gray-300 flex flex-col pb-4 rounded-2xl">
                 <img src="./images/crimsoncup.png" alt="" class="rounded-t-2xl">
 
@@ -126,5 +242,7 @@
             </a>
         </section>
     </section>
+
+    <script src="./js/index.js"></script>
 </body>
 </html>
