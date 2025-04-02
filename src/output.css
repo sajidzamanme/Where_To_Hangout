@@ -386,6 +386,9 @@
   .gap-10 {
     gap: calc(var(--spacing) * 10);
   }
+  .gap-\[6px\] {
+    gap: 6px;
+  }
   .place-self-center {
     place-self: center;
   }
