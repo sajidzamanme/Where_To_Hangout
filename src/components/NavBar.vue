@@ -93,7 +93,7 @@ const menuClicked = () => {
     </div>
   </nav>
 
-  <nav v-else class="fixed h-dvh bg-white p-10 border-r-2 border-gray-300">
+  <nav v-else class="fixed bg-white p-10 border-r-2 border-gray-300">
     <a
       href="/"
       class="text-[clamp(1.875rem,6dvw,2.25rem)] leading-[1.3] font-extrabold"

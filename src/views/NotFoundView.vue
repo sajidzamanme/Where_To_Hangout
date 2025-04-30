@@ -5,7 +5,7 @@
 
 <template>
   <div
-    class="grid grid-cols-1 lg:grid-cols-[minmax(380px,0.72fr)_1fr_1fr] h-dvh"
+    class="grid grid-cols-1 lg:grid-cols-[minmax(380px,0.72fr)_1fr_1fr]"
   >
   <div v-if="isLargeScreen"></div>  
   <section class="lg:col-span-2 mt-10">
