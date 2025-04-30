@@ -76,14 +76,14 @@ const menuClicked = () => {
         <div class="flex flex-row gap-4 pl-1 self-start">
           <a href="https://www.facebook.com/">
             <img
-              src="../img/facebookIcon.png"
+              src="/img/facebookIcon.png"
               alt=""
               class="h[35px] w-[35px]"
             />
           </a>
           <a href="https://www.instagram.com/">
             <img
-              src="../img/instagramIcon.png"
+              src="/img/instagramIcon.png"
               alt=""
               class="h[35px] w-[35px]"
             />
@@ -127,10 +127,10 @@ const menuClicked = () => {
       >
       <div class="flex flex-row gap-4 pl-1 self-start">
         <a href="https://www.facebook.com/">
-          <img src="../img/facebookIcon.png" alt="" class="h[35px] w-[35px]" />
+          <img src="/img/facebookIcon.png" alt="" class="h[35px] w-[35px]" />
         </a>
         <a href="https://www.instagram.com/">
-          <img src="../img/instagramIcon.png" alt="" class="h[35px] w-[35px]" />
+          <img src="/img/instagramIcon.png" alt="" class="h[35px] w-[35px]" />
         </a>
       </div>
     </div>

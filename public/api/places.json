@@ -3,7 +3,7 @@
       {
         "id": "1",
         "name": "Crimson Cup",
-        "imageLocation": "/src/img/crimsoncup.png",
+        "imageLocation": "/img/crimsoncup.png",
         "type": "Cafe",
         "comments": {
           "one": "Good for longtime Hangout",
@@ -15,7 +15,7 @@
       {
         "id": "2",
         "name": "Khana's",
-        "imageLocation": "/src/img/khanasIcon.jpg",
+        "imageLocation": "/img/khanasIcon.jpg",
         "type": "Resturant",
         "comments": {
           "one": "Good for longtime Hangout",
@@ -27,7 +27,7 @@
       {
         "id": "3",
         "name": "North End Coffee Roasters",
-        "imageLocation": "/src/img/northendIcon.jpg",
+        "imageLocation": "/img/northendIcon.jpg",
         "type": "Cafe",
         "comments": {
           "one": "Good for longtime Hangout",
@@ -39,7 +39,7 @@
       {
         "id": "4",
         "name": "Chillox",
-        "imageLocation": "/src/img/chilloxIcon.jpg",
+        "imageLocation": "/img/chilloxIcon.jpg",
         "type": "Resturant",
         "comments": {
           "one": "Good for longtime Hangout",
@@ -51,7 +51,7 @@
       {
         "id": "5",
         "name": "Burger Express",
-        "imageLocation": "/src/img/burgerExpressIcon.jpg",
+        "imageLocation": "/img/burgerExpressIcon.jpg",
         "type": "Resturant",
         "comments": {
           "one": "Good for longtime Hangout",
@@ -63,7 +63,7 @@
       {
         "id": "6",
         "name": "Chefs Table Courtside",
-        "imageLocation": "/src/img/chefsTableCourtsideIcon.jpg",
+        "imageLocation": "/img/chefsTableCourtsideIcon.jpg",
         "type": "Food Court",
         "comments": {
           "one": "Good for longtime Hangout",

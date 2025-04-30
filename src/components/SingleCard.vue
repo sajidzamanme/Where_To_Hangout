@@ -26,7 +26,7 @@
 
         <div class="flex flex-row gap-1 ml-6">
             <div v-for="n in props.place.review" :key="n">
-                <img src="../img/starIcon.png" alt="" class="h-[20px] w-[20px]">
+                <img src="/img/starIcon.png" alt="" class="h-[20px] w-[20px]">
             </div>
         </div>
     </a>
