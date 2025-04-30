@@ -7,6 +7,8 @@
 </script>
 
 <template>
-    <NavBar />
-    <RouterView />
+    <body class="h-[80vh]">
+        <NavBar />
+        <RouterView />
+    </body>
 </template>
