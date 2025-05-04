@@ -3,6 +3,7 @@
     {
       "id": "1",
       "name": "Crimson Cup",
+      "description": "Crimson Cup provides the great tasting gourmet coffee roasted right from the Buckeye land of Columbus, Ohio. There by Columbus Coffee proudly serves Crimson Cup coffee and tea. We want you to know... what those big coffee chains want you to think you’re getting. Only for real.",
       "imageLocation": "/img/crimsoncup.png",
       "type": "Cafe",
       "comments": [
@@ -15,6 +16,7 @@
     {
       "id": "2",
       "name": "Khana's",
+      "description": "Khana’s, a dream that came out of a street food cart concept “Ande Khana” to a popular fast-food chain. Inspired from the business model of a street side egg seller, Ande Khana was brought into existence in 2012. Soon “Ande Khana” the street food cart was transformed into a QSR. Thus, a new brand was born, “Khana’s”. The love and passion of delivering affordable quality food to the foodaholics is the prime driver of Khana’s adoration and evolution.",
       "imageLocation": "/img/khanasIcon.jpg",
       "type": "Resturant",
       "comments": [
@@ -27,6 +29,7 @@
     {
       "id": "3",
       "name": "North End Coffee Roasters",
+      "description": "North End Coffee Roasters is your source for fresh-roasted coffee in Bangladesh. “North End” alludes to both to our location in the North part of Dhaka and our roots in the famous Italian-American “North End” of Boston. Begun in 2011, we offer both premium quality single-origin coffees from around the world and locally-grown blends. Our emphasis is quality roasting, drawing from years of experience in the industry. North End also partners with other community organizations in developing coffee and pastry services.",
       "imageLocation": "/img/northendIcon.jpg",
       "type": "Cafe",
       "comments": [
@@ -39,6 +42,7 @@
     {
       "id": "4",
       "name": "Chillox",
+      "description": "Burgers || Fries || Shakes 100% halal",
       "imageLocation": "/img/chilloxIcon.jpg",
       "type": "Resturant",
       "comments": [
@@ -51,6 +55,7 @@
     {
       "id": "5",
       "name": "Burger Express",
+      "description": "Burger Xpress is one of the most famous burger shops in the town. We always serve halal, quality full and hygienic food to our valuable guests in affordable cost. With Burger we also serve Subway Sandwich, Rice Bowl, Chowmein and many more.",
       "imageLocation": "/img/burgerExpressIcon.jpg",
       "type": "Resturant",
       "comments": [
@@ -63,6 +68,7 @@
     {
       "id": "6",
       "name": "Chefs Table Courtside",
+      "description": "Chef's Table Courtside is the perfect place for family outing and outdoor dining experience.",
       "imageLocation": "/img/chefsTableCourtsideIcon.jpg",
       "type": "Food Court",
       "comments": [

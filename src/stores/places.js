@@ -4,6 +4,7 @@ import axios from "axios";
 
 export const usePlacesStore = defineStore("places", () => {
   const places = ref([]);
+  const selectedPlace = ref(null);
 
   const fetchPlaces = async () => {
     if (places.value.length > 0) {
@@ -27,11 +28,17 @@ export const usePlacesStore = defineStore("places", () => {
     places.value = places.value.filter((place) => place.id !== id);
   };
 
+  const setSelectedPlace = (plc) => {
+    selectedPlace.value = plc;
+  };
+
   onMounted(fetchPlaces);
 
   return {
     places,
     addPlace,
     removePlace,
+    selectedPlace,
+    setSelectedPlace,
   };
 });

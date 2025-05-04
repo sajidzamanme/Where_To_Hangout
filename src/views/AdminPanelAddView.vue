@@ -10,6 +10,7 @@ const placesStore = usePlacesStore();
 const placeObject = reactive({
   name: "",
   type: "",
+  description: "",
   imageLocation: "",
   comments: ["", "", ""],
   review: "",
@@ -26,7 +27,7 @@ const deleteLastCommentBox = () => {
 const handleSubmit = () => {
   const newPlace = { ...placeObject };
   placesStore.addPlace(newPlace);
-  router.push('/admin-panel')
+  router.push("/admin-panel");
 };
 </script>
 
@@ -59,6 +60,18 @@ const handleSubmit = () => {
             class="border bg-white w-full rounded h-8"
             required
           />
+        </div>
+        <div class="flex flex-col items-start">
+          <label for="description" class="font-medium">Description: </label>
+          <textarea
+            name="description"
+            id="description"
+            v-model="placeObject.description"
+            placeholder="Description of the place"
+            class="border bg-white w-full rounded h-18"
+            required
+          >
+          </textarea>
         </div>
         <div class="flex flex-col items-start">
           <label for="Name" class="font-medium">Image Location: </label>

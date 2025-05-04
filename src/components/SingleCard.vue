@@ -1,5 +1,12 @@
 <script setup>
+import { usePlacesStore } from "@/stores/places";
 import { defineProps } from "vue";
+
+const placesStore = usePlacesStore();
+
+const handleClick = () => {
+  placesStore.setSelectedPlace(props.place);
+};
 
 const props = defineProps({
   place: Object,
@@ -8,7 +15,8 @@ const props = defineProps({
 
 <template>
   <RouterLink
-    to="/"
+    to="/cardview"
+    @click="handleClick"
     class="bg-gray-300 flex flex-col pb-4 rounded-2xl border border-gray-300 group hover:bg-gray-200"
   >
     <img
