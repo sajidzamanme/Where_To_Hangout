@@ -28,10 +28,10 @@ const menuClicked = () => {
       </button>
 
       <div class="flex w-full justify-center">
-        <a
-          href="/"
+        <RouterLink
+          to="/"
           class="text-[clamp(1.875rem,6dvw,2.25rem)] leading-[1.3] font-extrabold"
-          >Where To Hangout</a
+          >Where To Hangout</RouterLink
         >
       </div>
     </div>
@@ -73,20 +73,17 @@ const menuClicked = () => {
           class="text-4xl font-extrabold hover:text-gray-600"
           >About Us</RouterLink
         >
+        <RouterLink
+          to="/admin-panel"
+          class="text-4xl font-extrabold hover:text-gray-600"
+          >Admin Panel</RouterLink
+        >
         <div class="flex flex-row gap-4 pl-1 self-start">
           <a href="https://www.facebook.com/">
-            <img
-              src="/img/facebookIcon.png"
-              alt=""
-              class="h[35px] w-[35px]"
-            />
+            <img src="/img/facebookIcon.png" alt="" class="h[35px] w-[35px]" />
           </a>
           <a href="https://www.instagram.com/">
-            <img
-              src="/img/instagramIcon.png"
-              alt=""
-              class="h[35px] w-[35px]"
-            />
+            <img src="/img/instagramIcon.png" alt="" class="h[35px] w-[35px]" />
           </a>
         </div>
       </div>
@@ -94,10 +91,10 @@ const menuClicked = () => {
   </nav>
 
   <nav v-else class="fixed bg-white p-10 border-r-2 border-gray-300">
-    <a
-      href="/"
+    <RouterLink
+      to="/"
       class="text-[clamp(1.875rem,6dvw,2.25rem)] leading-[1.3] font-extrabold"
-      >Where To Hangout</a
+      >Where To Hangout</RouterLink
     >
     <div
       class="flex flex-col justify-center h-[90vh] gap-5 text-left tracking-widest"
@@ -124,6 +121,11 @@ const menuClicked = () => {
         to="/aboutUs"
         class="text-4xl font-extrabold hover:text-gray-600"
         >About Us</RouterLink
+      >
+      <RouterLink
+        to="/admin-panel"
+        class="text-4xl font-extrabold hover:text-gray-600"
+        >Admin Panel</RouterLink
       >
       <div class="flex flex-row gap-4 pl-1 self-start">
         <a href="https://www.facebook.com/">
