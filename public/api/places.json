@@ -1,76 +1,76 @@
 {
-    "places": [
-      {
-        "id": "1",
-        "name": "Crimson Cup",
-        "imageLocation": "/img/crimsoncup.png",
-        "type": "Cafe",
-        "comments": {
-          "one": "Good for longtime Hangout",
-          "two": "Nice environment",
-          "three": "Popular product something (Price: 000)"
-        },
-        "review": 5
-      },
-      {
-        "id": "2",
-        "name": "Khana's",
-        "imageLocation": "/img/khanasIcon.jpg",
-        "type": "Resturant",
-        "comments": {
-          "one": "Good for longtime Hangout",
-          "two": "Nice environment",
-          "three": "Popular product something (Price: 000)"
-        },
-        "review": 4
-      },
-      {
-        "id": "3",
-        "name": "North End Coffee Roasters",
-        "imageLocation": "/img/northendIcon.jpg",
-        "type": "Cafe",
-        "comments": {
-          "one": "Good for longtime Hangout",
-          "two": "Nice environment",
-          "three": "Popular product something (Price: 000)"
-        },
-        "review": 5
-      },
-      {
-        "id": "4",
-        "name": "Chillox",
-        "imageLocation": "/img/chilloxIcon.jpg",
-        "type": "Resturant",
-        "comments": {
-          "one": "Good for longtime Hangout",
-          "two": "Nice environment",
-          "three": "Popular product something (Price: 000)"
-        },
-        "review": 5
-      },
-      {
-        "id": "5",
-        "name": "Burger Express",
-        "imageLocation": "/img/burgerExpressIcon.jpg",
-        "type": "Resturant",
-        "comments": {
-          "one": "Good for longtime Hangout",
-          "two": "Nice environment",
-          "three": "Popular product something (Price: 000)"
-        },
-        "review": 5
-      },
-      {
-        "id": "6",
-        "name": "Chefs Table Courtside",
-        "imageLocation": "/img/chefsTableCourtsideIcon.jpg",
-        "type": "Food Court",
-        "comments": {
-          "one": "Good for longtime Hangout",
-          "two": "Nice environment",
-          "three": "Popular product something (Price: 000)"
-        },
-        "review": 5
-      }
-    ]
-  }
+  "places": [
+    {
+      "id": "1",
+      "name": "Crimson Cup",
+      "imageLocation": "/img/crimsoncup.png",
+      "type": "Cafe",
+      "comments": [
+        "Good for longtime Hangout",
+        "Nice environment",
+        "Popular product something (Price: 000)"
+      ],
+      "review": 5
+    },
+    {
+      "id": "2",
+      "name": "Khana's",
+      "imageLocation": "/img/khanasIcon.jpg",
+      "type": "Resturant",
+      "comments": [
+        "Good for longtime Hangout",
+        "Nice environment",
+        "Popular product something (Price: 000)"
+      ],
+      "review": 4
+    },
+    {
+      "id": "3",
+      "name": "North End Coffee Roasters",
+      "imageLocation": "/img/northendIcon.jpg",
+      "type": "Cafe",
+      "comments": [
+        "Good for longtime Hangout",
+        "Nice environment",
+        "Popular product something (Price: 000)"
+      ],
+      "review": 5
+    },
+    {
+      "id": "4",
+      "name": "Chillox",
+      "imageLocation": "/img/chilloxIcon.jpg",
+      "type": "Resturant",
+      "comments": [
+        "Good for longtime Hangout",
+        "Nice environment",
+        "Popular product something (Price: 000)"
+      ],
+      "review": 5
+    },
+    {
+      "id": "5",
+      "name": "Burger Express",
+      "imageLocation": "/img/burgerExpressIcon.jpg",
+      "type": "Resturant",
+      "comments": [
+        "Good for longtime Hangout",
+        "Nice environment",
+        "Popular product something (Price: 000)"
+      ],
+      "review": 5
+    },
+    {
+      "id": "6",
+      "name": "Chefs Table Courtside",
+      "imageLocation": "/img/chefsTableCourtsideIcon.jpg",
+      "type": "Food Court",
+      "comments": [
+        "Good for longtime Hangout",
+        "Nice environment",
+        "Popular product something (Price: 000)"
+      ],
+      "review": 5
+    }
+  ]
+}
