@@ -1,6 +1,7 @@
-# Where_to_Eat_Vue
+# Where to Eat Hangout
 
-This template should help get you started developing with Vue 3 in Vite.
+A simple website made with Vue.js to find the best hangout spots.
+
 
 ## Recommended IDE Setup
 
