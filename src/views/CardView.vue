@@ -16,7 +16,7 @@ const goBack = () => {
   <div class="grid grid-cols-1 lg:grid-cols-[minmax(380px,0.72fr)_1fr_1fr]">
     <div v-if="isLargeScreen"></div>
 
-    <div class="flex flex-row p-8 h-[90vh] lg:col-span-2 items-center justify-center">
+    <div class="flex flex-row p-8 h-[90vh] mb-2 lg:col-span-2 items-start justify-center">
       <div
         class="grid grid-cols-1 bg-gray-300 rounded-2xl p-6 gap-2"
         style="width: clamp(10rem, 100%, 40rem)"
